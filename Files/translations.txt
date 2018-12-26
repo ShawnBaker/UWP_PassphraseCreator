@@ -1,0 +1,310 @@
+Passphrase Creator
+Billion
+centuries
+Char
+Create
+days
+Entropy
+Guesses per Second
+hours
+List of words
+millennia
+Million
+minutes
+months
+Number of words
+Passphrase
+seconds
+Trillion
+Type
+Version
+weeks
+Word
+words
+years
+
+French
+Créateur de Phrase de Passe
+Milliards
+des siècles
+Char
+Créer
+jours
+Entropie
+Devinettes par Seconde
+heures
+Liste de mots
+millennia
+Million
+minutes
+mois
+Nombre de mots
+Phrase de passe
+secondes
+Trillion
+Type
+Version
+semaine
+Mot
+mots
+années
+
+Spanish
+Creador de Frases Pasadas
+Billones
+siglos
+Char
+Crear
+días
+Entropía
+Adivinanzas por Segundo
+horas
+Lista de palabras
+milenios
+Millones
+minuto
+mes
+Numero de palabras
+Frase de paso
+segundos
+Trillones
+Tipo
+Versión
+semana
+Palabra
+palabras
+años
+
+German
+Passwort-Ersteller
+Milliarden
+jahrhunderte
+Char
+Erstellen
+tage
+Entropie
+Vermutungen pro Sekunde
+stunden
+Liste der wörter
+jahrtausende
+Millionen
+minute
+monat
+Anzahl der wörter
+Passphrase
+sekunden
+Trillion
+Typ
+Ausführung
+woche
+Wort
+wörter
+jahre
+
+Japanese
+パスフレーズ作成者
+10億
+世紀
+チャー
+作成する
+日数
+エントロピー
+1秒あたりの推測
+時間
+単語リスト
+ミレニア
+ミリオン
+分
+月
+単語数
+パスフレーズ
+秒
+兆
+タイプ
+バージョン
+週
+言葉
+ことば
+年
+
+Italian
+Passa la Frase Creatore
+Miliardo
+secoli
+Carbonizzare
+Creare
+giorni
+Entropia
+Indovini al secondo
+orario
+Elenco di parole
+millenni
+Milione
+verbale
+mesi
+Numero di parole
+Passa la frase
+secondi
+Trillion
+Tipo
+Versione
+settimane
+Parola
+parole
+anni
+
+Chinese (Simplified)
+密码短语创作者
+十亿
+百年
+烧焦
+创建
+天
+熵
+每秒猜测
+小时
+单词列表
+千年
+百万
+分钟
+个月
+单词数量
+密码短语
+秒
+兆
+类型
+版
+周
+字
+话
+年份
+
+Dutch
+Wachtwoordzin Creator
+Miljard
+eeuwen
+Verkolen
+Creëren
+dagen
+Entropie
+Gissingen per Seconde
+uur
+Lijst met woorden
+millennia
+Miljoen
+notulen
+maanden
+Aantal woorden
+Wachtwoordzin
+seconden
+Trillion
+Type
+Versie
+weken
+Woord
+woorden
+jaar
+
+Portuguese
+Criador de Frase Secreta
+Bilhão
+séculos
+Caracteres
+Crio
+dias
+Entropia
+Palpites por Segundo
+horas
+Lista de palavras
+milênios
+Milhão
+minutos
+meses
+Número de palavras
+Frase secreta
+segundos
+Trilhão
+Tipo
+Versão
+semanas
+Palavra
+palavras
+anos
+
+Russian
+Пропустить фразу Creator
+миллиард
+века
+голец
+Создайте
+дней
+Энтропия
+Угадывает в секунду
+часов
+Список слов
+тысячелетия
+миллиона
+минут
+месяцы
+Число слов
+Пропустить фразу
+секунд
+Триллион
+Тип
+Версия
+недель
+слово
+слова
+лет
+
+Korean
+암호 작성기
+십억
+세기
+숯
+몹시 떠들어 대다
+일
+엔트로피
+초당 추측
+시간
+단어 목록
+천년
+백만
+의사록
+개월
+단어 수
+암호
+초
+일조
+유형
+번역
+주
+워드
+말
+연령
+
+Swedish
+Pass Frasen Skapare
+Miljard
+århundraden
+Röding
+Skapa
+dagar
+Entropi
+Gissningar per Sekund
+timmar
+Lista med ord
+årtusenden
+Miljon
+minuter
+månader
+Antal ord
+Passfras
+sekunder
+Biljon
+Typ
+Version
+veckor
+Ord
+ord
+år

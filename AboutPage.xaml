@@ -1,0 +1,43 @@
+﻿<!-- Copyright © 2018-2019 Shawn Baker using the MIT License. -->
+<Page
+    x:Class="PassphraseCreator.AboutPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PassphraseCreator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+	Background="OldLace">
+
+	<Grid Margin="20">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		<Grid Grid.Row="0">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			<Image Grid.Column="0" Source="Assets/StoreLogo.scale-100.png" HorizontalAlignment="Left"/>
+			<StackPanel Grid.Column="1" Orientation="Vertical">
+				<TextBlock x:Name="nameTextBlock" Margin="20,0,0,0" TextWrapping="NoWrap" HorizontalAlignment="Left" FontWeight="Bold"/>
+				<TextBlock x:Name="versionTextBlock" Margin="20,0,0,0" TextWrapping="NoWrap" HorizontalAlignment="Left"/>
+			</StackPanel>
+		</Grid>
+		<TextBlock x:Name="copyrightTextBlock" Grid.Row="1" Margin="0,15,0,0" TextWrapping="WrapWholeWords" HorizontalAlignment="Left"/>
+		<Button Grid.Row="2" Margin="0,40,0,0" Width="40" Height="40" HorizontalAlignment="Left" Click="HandleBackButtonClick">
+			<SymbolIcon Symbol="Back"/>
+		</Button>
+		<Button Grid.Row="2" Margin="0,40,0,0" Width="40" Height="40" HorizontalAlignment="Right" Click="HandleHelpButtonClick">
+			<SymbolIcon Symbol="Help"/>
+		</Button>
+	</Grid>
+</Page>

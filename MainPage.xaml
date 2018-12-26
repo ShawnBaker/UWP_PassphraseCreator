@@ -1,0 +1,79 @@
+﻿<!-- Copyright © 2018-2019 Shawn Baker using the MIT License. -->
+<Page
+    x:Class="PassphraseCreator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PassphraseCreator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+	Background="OldLace">
+
+	<Grid Margin="20">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="20"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		<TextBlock Grid.Row="0" Grid.Column="0" Margin="0,0,5,0" x:Uid="ListOfWords" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+		<StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+			<ComboBox x:Name="listComboBox" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Width="180" SelectionChanged="HandleListSelectionChanged"/>
+			<TextBlock x:Name="listCountTextBlock" Margin="5,0,0,0" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+		</StackPanel>
+		<TextBlock Grid.Row="1" Grid.Column="0" Margin="0,5,5,0" x:Uid="NumWords" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+		<TextBox x:Name="numWordsTextBox" Grid.Row="1" Grid.Column="1" Margin="5,5,0,0" Text="5" HorizontalAlignment="Left" VerticalAlignment="Center" TextChanging="HandleNumWordsTextChanging"/>
+		<Button Grid.Row="3" Grid.Column="1" x:Uid="Create" Margin="5,0,0,-10" Padding="20,0" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" Click="HandleCreateButtonClick"/>
+		<TextBlock Grid.Row="4" Grid.Column="0" x:Uid="Passphrase" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+		<StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+			<Button x:Name="aboutButton" Margin="0,0,5,0" Width="40" Height="40" Click="HandleAboutButtonClick">
+				<SymbolIcon Symbol="Help"/>
+			</Button>
+			<Button x:Name="copyButton" IsEnabled="False" Width="40" Height="40" Click="HandleCopyButtonClick">
+				<SymbolIcon Symbol="Copy"/>
+			</Button>
+		</StackPanel>
+		<Border Grid.Row="5" Grid.ColumnSpan="2" Margin="0,3,0,5" BorderThickness="1" BorderBrush="Black">
+			<TextBlock x:Name="passwordTextBlock" TextWrapping="Wrap" Padding="5"/>
+		</Border>
+		<Grid Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" Background="OldLace">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+				<RowDefinition Height="Auto"/>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+				<ColumnDefinition Width="Auto"/>
+			</Grid.ColumnDefinitions>
+			<TextBlock Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="3" Margin="0,0,10,0" x:Uid="GuessesPerSecond" TextWrapping="NoWrap" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="12pt" FontWeight="Bold"/>
+			<TextBlock Grid.Row="1" Grid.Column="0" Margin="0,0,10,0" x:Uid="Type" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt" FontWeight="Bold"/>
+			<TextBlock Grid.Row="1" Grid.Column="1" Margin="0,0,10,0" x:Uid="Entropy" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt" FontWeight="Bold"/>
+			<TextBlock Grid.Row="1" Grid.Column="2" Margin="0,0,10,0" x:Uid="Million" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt" FontWeight="Bold"/>
+			<TextBlock Grid.Row="1" Grid.Column="3" Margin="0,0,10,0" x:Uid="Billion" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt" FontWeight="Bold"/>
+			<TextBlock Grid.Row="1" Grid.Column="4" Margin="0,0,10,0" x:Uid="Trillion" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt" FontWeight="Bold"/>
+			<TextBlock Grid.Row="2" Grid.Column="0" Margin="0,0,10,0" x:Uid="Word" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt" FontWeight="Bold"/>
+			<TextBlock x:Name="wordEtropyTextBlock" Grid.Row="2" Grid.Column="1" Margin="0,0,10,0" Text=" " TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt"/>
+			<TextBlock x:Name="wordMillionTextBlock" Grid.Row="2" Grid.Column="2" Margin="0,0,10,0" Text=" " TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt"/>
+			<TextBlock x:Name="wordBillionTextBlock" Grid.Row="2" Grid.Column="3" Margin="0,0,10,0" Text=" " TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt"/>
+			<TextBlock x:Name="wordTrillionTextBlock" Grid.Row="2" Grid.Column="4" Margin="0,0,10,0" Text=" " TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt"/>
+			<TextBlock Grid.Row="3" Grid.Column="0" Margin="0,0,10,0" x:Uid="Char" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt" FontWeight="Bold"/>
+			<TextBlock x:Name="charEtropyTextBlock" Grid.Row="3" Grid.Column="1" Margin="0,0,10,0" Text=" " TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt"/>
+			<TextBlock x:Name="charMillionTextBlock" Grid.Row="3" Grid.Column="2" Margin="0,0,10,0" Text=" " TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt"/>
+			<TextBlock x:Name="charBillionTextBlock" Grid.Row="3" Grid.Column="3" Margin="0,0,10,0" Text=" " TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt"/>
+			<TextBlock x:Name="charTrillionTextBlock" Grid.Row="3" Grid.Column="4" Margin="0,0,10,0" Text=" " TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="12pt"/>
+		</Grid>
+	</Grid>
+</Page>
