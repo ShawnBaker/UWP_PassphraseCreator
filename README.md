@@ -1,6 +1,6 @@
 # Passphrase Creator
 
-Creates random passphrases from lists of words. The following lists are currently supported:
+A C# UWP program that creates random passphrases from lists of words. The following lists are currently supported:
 
 * The [Diceware lists](http://world.std.com/~reinhold/diceware.html):
 	* standard 7776 word list
