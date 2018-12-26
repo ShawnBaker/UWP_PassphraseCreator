@@ -137,8 +137,7 @@ namespace PassphraseCreator
 			{
 				StorageFile file = files[i];
 				IList<string> lines = await FileIO.ReadLinesAsync(file);
-				StringList words = new StringList();
-				words.Name = Path.GetFileNameWithoutExtension(file.Path);
+				StringList words = new StringList() { Name = Path.GetFileNameWithoutExtension(file.Path) };
 				if (words.Name == defaultListName)
 				{
 					index = i;

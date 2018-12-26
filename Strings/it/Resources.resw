@@ -130,13 +130,16 @@
     <value>Carbonizzare</value>
   </data>
   <data name="Create.Content" xml:space="preserve">
-    <value>CreaCrearete</value>
+    <value>Creare</value>
   </data>
   <data name="Days" xml:space="preserve">
     <value>giorni</value>
   </data>
   <data name="Entropy.Text" xml:space="preserve">
     <value>Entropia</value>
+  </data>
+  <data name="GithubMIT" xml:space="preserve">
+    <value>È disponibile su github sotto la licenza MIT.</value>
   </data>
   <data name="GuessesPerSecond.Text" xml:space="preserve">
     <value>Indovini al secondo</value>
@@ -161,6 +164,9 @@
   </data>
   <data name="NumWords.Text" xml:space="preserve">
     <value>Numero di parole</value>
+  </data>
+  <data name="OpenSource" xml:space="preserve">
+    <value>Questo è un programma open source.</value>
   </data>
   <data name="Passphrase.Text" xml:space="preserve">
     <value>Passa la frase</value>

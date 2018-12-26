@@ -138,6 +138,9 @@
   <data name="Entropy.Text" xml:space="preserve">
     <value>Entropie</value>
   </data>
+  <data name="GithubMIT" xml:space="preserve">
+    <value>Es ist auf github unter der MIT-Lizenz verfügbar.</value>
+  </data>
   <data name="GuessesPerSecond.Text" xml:space="preserve">
     <value>Vermutungen pro Sekunde</value>
   </data>
@@ -161,6 +164,9 @@
   </data>
   <data name="NumWords.Text" xml:space="preserve">
     <value>Anzahl der wörter</value>
+  </data>
+  <data name="OpenSource" xml:space="preserve">
+    <value>Dies ist ein Open Source-Programm.</value>
   </data>
   <data name="Passphrase.Text" xml:space="preserve">
     <value>Passphrase</value>

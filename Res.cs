@@ -14,10 +14,12 @@ namespace PassphraseCreator
 			public static string AppName { get { return res.GetString("AppName"); } }
 			public static string Centuries { get { return res.GetString("Centuries"); } }
 			public static string Days { get { return res.GetString("Days"); } }
+			public static string GithubMIT { get { return res.GetString("GithubMIT"); } }
 			public static string Hours { get { return res.GetString("Hours"); } }
 			public static string Millennia { get { return res.GetString("Millennia"); } }
 			public static string Minutes { get { return res.GetString("Minutes"); } }
 			public static string Months { get { return res.GetString("Months"); } }
+			public static string OpenSource { get { return res.GetString("OpenSource"); } }
 			public static string Seconds { get { return res.GetString("Seconds"); } }
 			public static string Version { get { return res.GetString("Version"); } }
 			public static string Weeks { get { return res.GetString("Weeks"); } }

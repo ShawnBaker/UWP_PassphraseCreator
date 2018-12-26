@@ -138,6 +138,9 @@
   <data name="Entropy.Text" xml:space="preserve">
     <value>エントロピー</value>
   </data>
+  <data name="GithubMIT" xml:space="preserve">
+    <value>それはMITライセンスの下でgithubで利用可能です。</value>
+  </data>
   <data name="GuessesPerSecond.Text" xml:space="preserve">
     <value>1秒あたりの推測</value>
   </data>
@@ -161,6 +164,9 @@
   </data>
   <data name="NumWords.Text" xml:space="preserve">
     <value>単語数</value>
+  </data>
+  <data name="OpenSource" xml:space="preserve">
+    <value>これはオープンソースプログラムです。</value>
   </data>
   <data name="Passphrase.Text" xml:space="preserve">
     <value>パスフレーズ</value>

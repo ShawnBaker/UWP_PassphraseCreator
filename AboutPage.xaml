@@ -14,6 +14,7 @@
 			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="*"/>
@@ -33,10 +34,11 @@
 			</StackPanel>
 		</Grid>
 		<TextBlock x:Name="copyrightTextBlock" Grid.Row="1" Margin="0,15,0,0" TextWrapping="WrapWholeWords" HorizontalAlignment="Left"/>
-		<Button Grid.Row="2" Margin="0,40,0,0" Width="40" Height="40" HorizontalAlignment="Left" Click="HandleBackButtonClick">
+		<TextBlock x:Name="openSourceTextBlock" Grid.Row="2" Margin="0,15,0,0" TextWrapping="WrapWholeWords" HorizontalAlignment="Left"/>
+		<Button Grid.Row="3" Margin="0,40,0,0" Width="40" Height="40" HorizontalAlignment="Left" Click="HandleBackButtonClick">
 			<SymbolIcon Symbol="Back"/>
 		</Button>
-		<Button Grid.Row="2" Margin="0,40,0,0" Width="40" Height="40" HorizontalAlignment="Right" Click="HandleHelpButtonClick">
+		<Button Grid.Row="3" Margin="0,40,0,0" Width="40" Height="40" HorizontalAlignment="Right" Click="HandleHelpButtonClick">
 			<SymbolIcon Symbol="Help"/>
 		</Button>
 	</Grid>

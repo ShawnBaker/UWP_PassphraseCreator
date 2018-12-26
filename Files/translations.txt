@@ -22,6 +22,8 @@ weeks
 Word
 words
 years
+This is an open source program.
+It's available on github under the MIT License.
 
 French
 Créateur de Phrase de Passe
@@ -48,6 +50,8 @@ semaine
 Mot
 mots
 années
+Ceci est un programme open source.
+Il est disponible sur github sous la licence MIT.
 
 Spanish
 Creador de Frases Pasadas
@@ -74,6 +78,8 @@ semana
 Palabra
 palabras
 años
+Este es un programa de código abierto.
+Está disponible en github bajo la licencia MIT.
 
 German
 Passwort-Ersteller
@@ -100,6 +106,8 @@ woche
 Wort
 wörter
 jahre
+Dies ist ein Open Source-Programm.
+Es ist auf github unter der MIT-Lizenz verfügbar.
 
 Japanese
 パスフレーズ作成者
@@ -126,6 +134,8 @@ Japanese
 言葉
 ことば
 年
+これはオープンソースプログラムです。
+それはMITライセンスの下でgithubで利用可能です。
 
 Italian
 Passa la Frase Creatore
@@ -152,6 +162,8 @@ settimane
 Parola
 parole
 anni
+Questo è un programma open source.
+È disponibile su github sotto la licenza MIT.
 
 Chinese (Simplified)
 密码短语创作者
@@ -178,6 +190,8 @@ Chinese (Simplified)
 字
 话
 年份
+这是一个开源程序。
+它可以在MIT许可下的github上找到。
 
 Dutch
 Wachtwoordzin Creator
@@ -204,6 +218,8 @@ weken
 Woord
 woorden
 jaar
+Dit is een open source-programma.
+Het is beschikbaar op github onder de MIT-licentie.
 
 Portuguese
 Criador de Frase Secreta
@@ -230,6 +246,8 @@ semanas
 Palavra
 palavras
 anos
+Este é um programa de código aberto.
+Está disponível no github sob a licença MIT.
 
 Russian
 Пропустить фразу Creator
@@ -256,6 +274,8 @@ Russian
 слово
 слова
 лет
+Это программа с открытым исходным кодом.
+Он доступен на github под лицензией MIT.
 
 Korean
 암호 작성기
@@ -282,6 +302,8 @@ Korean
 워드
 말
 연령
+이것은 오픈 소스 프로그램입니다.
+github에서 MIT 라이센스하에 사용 가능합니다.
 
 Swedish
 Pass Frasen Skapare
@@ -308,3 +330,5 @@ veckor
 Ord
 ord
 år
+Detta är ett open source-program.
+Den är tillgänglig på github under MIT-licensen.

@@ -22,7 +22,7 @@ namespace PassphraseCreator
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-        }
+		}
 
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
@@ -31,6 +31,9 @@ namespace PassphraseCreator
         /// <param name="e">Details about the launch request and process.</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
+			// set the language for testing
+			//Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = "";
+
             Frame rootFrame = Window.Current.Content as Frame;
 
 			ApplicationDataContainer settings = ApplicationData.Current.LocalSettings;

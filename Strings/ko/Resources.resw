@@ -138,6 +138,9 @@
   <data name="Entropy.Text" xml:space="preserve">
     <value>엔트로피</value>
   </data>
+  <data name="GithubMIT" xml:space="preserve">
+    <value>github에서 MIT 라이센스하에 사용 가능합니다.</value>
+  </data>
   <data name="GuessesPerSecond.Text" xml:space="preserve">
     <value>초당 추측</value>
   </data>
@@ -161,6 +164,9 @@
   </data>
   <data name="NumWords.Text" xml:space="preserve">
     <value>단어 수</value>
+  </data>
+  <data name="OpenSource" xml:space="preserve">
+    <value>이것은 오픈 소스 프로그램입니다.</value>
   </data>
   <data name="Passphrase.Text" xml:space="preserve">
     <value>암호</value>
