@@ -4,6 +4,7 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:PassphraseCreator"
+    xmlns:controls="using:WinRTXamlToolkit.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
@@ -30,15 +31,17 @@
 		</StackPanel>
 		<TextBlock Grid.Row="1" Grid.Column="0" Margin="0,5,5,0" x:Uid="NumWords" TextWrapping="NoWrap" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 		<TextBox x:Name="numWordsTextBox" Grid.Row="1" Grid.Column="1" Margin="5,5,0,0" Text="5" HorizontalAlignment="Left" VerticalAlignment="Center" TextChanging="HandleNumWordsTextChanging"/>
-		<Button Grid.Row="3" Grid.Column="1" x:Uid="Create" Margin="5,0,0,-10" Padding="20,0" Height="40" HorizontalAlignment="Left" VerticalAlignment="Center" Click="HandleCreateButtonClick"/>
+		<controls:ImageButton Grid.Row="3" Grid.Column="1" x:Uid="Create" Margin="5,0,0,-10" Click="HandleCreateButtonClick" NormalStateImageSource="/Assets/button_small/normal.png"
+								  DisabledStateImageSource="/Assets/button_small/disabled.png" PressedStateImageSource="/Assets/button_small/pressed.png"
+								  HoverStateImageSource="/Assets/button_small/hover.png" />
 		<TextBlock Grid.Row="4" Grid.Column="0" x:Uid="Passphrase" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
 		<StackPanel Grid.Row="4" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
-			<Button x:Name="aboutButton" Margin="0,0,5,0" Width="40" Height="40" Click="HandleAboutButtonClick">
-				<SymbolIcon Symbol="Help"/>
-			</Button>
-			<Button x:Name="copyButton" IsEnabled="False" Width="40" Height="40" Click="HandleCopyButtonClick">
-				<SymbolIcon Symbol="Copy"/>
-			</Button>
+			<controls:ImageButton Margin="0,0,5,0" Click="HandleAboutButtonClick" NormalStateImageSource="/Assets/info/normal.png"
+								  DisabledStateImageSource="/Assets/info/disabled.png" PressedStateImageSource="/Assets/info/pressed.png"
+								  HoverStateImageSource="/Assets/info/hover.png" />
+			<controls:ImageButton x:Name="copyButton" IsEnabled="False" Click="HandleCopyButtonClick" NormalStateImageSource="/Assets/copy/normal.png"
+								  DisabledStateImageSource="/Assets/copy/disabled.png" PressedStateImageSource="/Assets/copy/pressed.png"
+								  HoverStateImageSource="/Assets/copy/hover.png" />
 		</StackPanel>
 		<Border Grid.Row="5" Grid.ColumnSpan="2" Margin="0,3,0,5" BorderThickness="1" BorderBrush="Black">
 			<TextBlock x:Name="passwordTextBlock" TextWrapping="Wrap" Padding="5"/>

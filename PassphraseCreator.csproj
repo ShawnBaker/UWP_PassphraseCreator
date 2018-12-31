@@ -123,11 +123,91 @@
     <PRIResource Include="Strings\en-US\Resources.resw" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\back\disabled.scale-100.png" />
+    <Content Include="Assets\back\disabled.scale-140.png" />
+    <Content Include="Assets\back\disabled.scale-180.png" />
+    <Content Include="Assets\back\disabled.scale-240.png" />
+    <Content Include="Assets\back\hover.scale-100.png" />
+    <Content Include="Assets\back\hover.scale-140.png" />
+    <Content Include="Assets\back\hover.scale-180.png" />
+    <Content Include="Assets\back\hover.scale-240.png" />
+    <Content Include="Assets\back\normal.scale-100.png" />
+    <Content Include="Assets\back\normal.scale-140.png" />
+    <Content Include="Assets\back\normal.scale-180.png" />
+    <Content Include="Assets\back\normal.scale-240.png" />
+    <Content Include="Assets\back\pressed.scale-100.png" />
+    <Content Include="Assets\back\pressed.scale-140.png" />
+    <Content Include="Assets\back\pressed.scale-180.png" />
+    <Content Include="Assets\back\pressed.scale-240.png" />
+    <Content Include="Assets\button_small\disabled.scale-100.png" />
+    <Content Include="Assets\button_small\disabled.scale-140.png" />
+    <Content Include="Assets\button_small\disabled.scale-180.png" />
+    <Content Include="Assets\button_small\disabled.scale-240.png" />
+    <Content Include="Assets\button_small\hover.scale-100.png" />
+    <Content Include="Assets\button_small\hover.scale-140.png" />
+    <Content Include="Assets\button_small\hover.scale-180.png" />
+    <Content Include="Assets\button_small\hover.scale-240.png" />
+    <Content Include="Assets\button_small\normal.scale-100.png" />
+    <Content Include="Assets\button_small\normal.scale-140.png" />
+    <Content Include="Assets\button_small\normal.scale-180.png" />
+    <Content Include="Assets\button_small\normal.scale-240.png" />
+    <Content Include="Assets\button_small\pressed.scale-100.png" />
+    <Content Include="Assets\button_small\pressed.scale-140.png" />
+    <Content Include="Assets\button_small\pressed.scale-180.png" />
+    <Content Include="Assets\button_small\pressed.scale-240.png" />
+    <Content Include="Assets\copy\disabled.scale-100.png" />
+    <Content Include="Assets\copy\disabled.scale-140.png" />
+    <Content Include="Assets\copy\disabled.scale-180.png" />
+    <Content Include="Assets\copy\disabled.scale-240.png" />
+    <Content Include="Assets\copy\hover.scale-100.png" />
+    <Content Include="Assets\copy\hover.scale-140.png" />
+    <Content Include="Assets\copy\hover.scale-180.png" />
+    <Content Include="Assets\copy\hover.scale-240.png" />
+    <Content Include="Assets\copy\normal.scale-100.png" />
+    <Content Include="Assets\copy\normal.scale-140.png" />
+    <Content Include="Assets\copy\normal.scale-180.png" />
+    <Content Include="Assets\copy\normal.scale-240.png" />
+    <Content Include="Assets\copy\pressed.scale-100.png" />
+    <Content Include="Assets\copy\pressed.scale-140.png" />
+    <Content Include="Assets\copy\pressed.scale-180.png" />
+    <Content Include="Assets\copy\pressed.scale-240.png" />
+    <Content Include="Assets\info\disabled.scale-100.png" />
+    <Content Include="Assets\info\disabled.scale-140.png" />
+    <Content Include="Assets\info\disabled.scale-180.png" />
+    <Content Include="Assets\info\disabled.scale-240.png" />
+    <Content Include="Assets\info\hover.scale-100.png" />
+    <Content Include="Assets\info\hover.scale-140.png" />
+    <Content Include="Assets\info\hover.scale-180.png" />
+    <Content Include="Assets\info\hover.scale-240.png" />
+    <Content Include="Assets\info\normal.scale-100.png" />
+    <Content Include="Assets\info\normal.scale-140.png" />
+    <Content Include="Assets\info\normal.scale-180.png" />
+    <Content Include="Assets\info\normal.scale-240.png" />
+    <Content Include="Assets\info\pressed.scale-100.png" />
+    <Content Include="Assets\info\pressed.scale-140.png" />
+    <Content Include="Assets\info\pressed.scale-180.png" />
+    <Content Include="Assets\info\pressed.scale-240.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-125.png" />
     <Content Include="Assets\LargeTile.scale-150.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
     <Content Include="Assets\LargeTile.scale-400.png" />
+    <Content Include="Assets\question\disabled.scale-100.png" />
+    <Content Include="Assets\question\disabled.scale-140.png" />
+    <Content Include="Assets\question\disabled.scale-180.png" />
+    <Content Include="Assets\question\disabled.scale-240.png" />
+    <Content Include="Assets\question\hover.scale-100.png" />
+    <Content Include="Assets\question\hover.scale-140.png" />
+    <Content Include="Assets\question\hover.scale-180.png" />
+    <Content Include="Assets\question\hover.scale-240.png" />
+    <Content Include="Assets\question\normal.scale-100.png" />
+    <Content Include="Assets\question\normal.scale-140.png" />
+    <Content Include="Assets\question\normal.scale-180.png" />
+    <Content Include="Assets\question\normal.scale-240.png" />
+    <Content Include="Assets\question\pressed.scale-100.png" />
+    <Content Include="Assets\question\pressed.scale-140.png" />
+    <Content Include="Assets\question\pressed.scale-180.png" />
+    <Content Include="Assets\question\pressed.scale-240.png" />
     <Content Include="Assets\SmallTile.scale-100.png" />
     <Content Include="Assets\SmallTile.scale-125.png" />
     <Content Include="Assets\SmallTile.scale-150.png" />
@@ -193,6 +273,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.1.9</Version>
+    </PackageReference>
+    <PackageReference Include="WinRTXamlToolkit.UWP">
+      <Version>2.3.0</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup />
