@@ -24,6 +24,7 @@ words
 years
 This is an open source program.
 It's available on github under the MIT License.
+Creates random passphrases from lists of words.
 
 French
 Créateur de Phrase de Passe
@@ -52,6 +53,7 @@ mots
 années
 Ceci est un programme open source.
 Il est disponible sur github sous la licence MIT.
+Crée des phrases secrètes aléatoires à partir de listes de mots.
 
 Spanish
 Creador de Frases Pasadas
@@ -80,6 +82,7 @@ palabras
 años
 Este es un programa de código abierto.
 Está disponible en github bajo la licencia MIT.
+Crea frases de contraseña aleatorias a partir de listas de palabras.
 
 German
 Passwort-Ersteller
@@ -108,6 +111,7 @@ wörter
 jahre
 Dies ist ein Open Source-Programm.
 Es ist auf github unter der MIT-Lizenz verfügbar.
+Erstellt zufällige Passphrasen aus Wortlisten.
 
 Japanese
 パスフレーズ作成者
@@ -136,6 +140,7 @@ Japanese
 年
 これはオープンソースプログラムです。
 それはMITライセンスの下でgithubで利用可能です。
+単語のリストからランダムなパスフレーズを作成します。
 
 Italian
 Passa la Frase Creatore
@@ -164,6 +169,7 @@ parole
 anni
 Questo è un programma open source.
 È disponibile su github sotto la licenza MIT.
+Crea passphrase casuali da elenchi di parole.
 
 Chinese (Simplified)
 密码短语创作者
@@ -192,6 +198,7 @@ Chinese (Simplified)
 年份
 这是一个开源程序。
 它可以在MIT许可下的github上找到。
+从单词列表中创建随机密码。
 
 Dutch
 Wachtwoordzin Creator
@@ -220,6 +227,7 @@ woorden
 jaar
 Dit is een open source-programma.
 Het is beschikbaar op github onder de MIT-licentie.
+Creëert willekeurige wachtzinnen uit lijsten met woorden.
 
 Portuguese
 Criador de Frase Secreta
@@ -248,6 +256,7 @@ palavras
 anos
 Este é um programa de código aberto.
 Está disponível no github sob a licença MIT.
+Cria senhas aleatórias de listas de palavras.
 
 Russian
 Пропустить фразу Creator
@@ -276,6 +285,7 @@ Russian
 лет
 Это программа с открытым исходным кодом.
 Он доступен на github под лицензией MIT.
+Создает случайные парольные фразы из списков слов.
 
 Korean
 암호 작성기
@@ -304,6 +314,7 @@ Korean
 연령
 이것은 오픈 소스 프로그램입니다.
 github에서 MIT 라이센스하에 사용 가능합니다.
+단어 목록에서 임의의 암호를 만듭니다.
 
 Swedish
 Pass Frasen Skapare
@@ -332,3 +343,4 @@ ord
 år
 Detta är ett open source-program.
 Den är tillgänglig på github under MIT-licensen.
+Skapar slumpmässiga lösenordsordningar från listor med ord.
